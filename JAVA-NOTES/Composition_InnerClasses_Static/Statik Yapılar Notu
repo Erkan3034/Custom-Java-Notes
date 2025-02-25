@@ -1,0 +1,45 @@
+### Java'da Statik Yapılar (Static)
+
+Statik yapılar, sınıfa ait olup nesne oluşturmadan sınıf adıyla erişilebilen yapılardır. 
+
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+#### 1. **Statik Değişkenler (Static Variables)**
+- Tüm nesneler arasında paylaşılan ve sınıf yüklendiğinde bellekte bir kez oluşturulan değişkenlerdir.
+- Örneğin: Bir sayaç gibi tüm nesneler tarafından paylaşılan veriler.
+
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+#### 2. **Statik Metotlar (Static Methods)**
+- Sınıfa özgü işlemleri gerçekleştiren ve nesneye bağlı olmayan metotlardır.
+- Statik olmayan öğelere doğrudan erişilemez.
+- Örneğin: Yardımcı işlevler (utility methods).
+
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+#### 3. **Statik İç Sınıflar (Static Inner Classes)**
+- Dış sınıfın bir örneğine ihtiyaç duymadan kullanılabilen sınıflardır.
+- Dış sınıfın yalnızca statik üyelerine erişebilir.
+- Örneğin: Büyük bir sınıfın bağımsız parçalarını temsil etmek.
+
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+#### 4. **Composition ve Statik Yapılar**
+- Statik yapılar, bileşim (composition) ile bir sınıfın statik bir bileşen üzerinden işlevsellik sağlamasına olanak tanır.
+
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+### Avantajlar:
+- Bellek tasarrufu sağlar (tek kopya).
+- Yardımcı işlevler için uygun.
+- Örnek bağımlılığı olmadan çalışır.
+
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+### Dezavantajlar:
+- Nesne tabanlı paradigmayı zayıflatabilir.
+- Fazla kullanımda kodun bakımı zorlaşabilir.
+
+Statik yapılar, doğru kullanıldığında performans ve organizasyon avantajları sunar.
+
+
