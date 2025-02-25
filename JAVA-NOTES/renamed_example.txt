@@ -1,0 +1,1 @@
+NIO ile genel dosya işlemleri örneği.
