@@ -18,6 +18,7 @@ public class HashSetFullExample {
         hashSet.add("Python");      // "Python" eklenir.
         hashSet.add("C++");         // "C++" eklenir.
         hashSet.add("JavaScript");  // "JavaScript" eklenir.
+	hashSet.add("React");
 
         // 3.) Aynı eleman eklenmeye çalışılır
         hashSet.add("Java"); // "Java" zaten olduğu için eklenmez.
