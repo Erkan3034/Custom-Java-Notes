@@ -15,7 +15,7 @@ public class DbHelper {
     // Veritabanı bağlantı adresi. "world" adlı veritabanına bağlanmak için kullanılıyor.
     private String dbUrl = "jdbc:mysql://localhost:3306/world"; // db adresi.
     
-    // Veritabanı bağlantısı oluşturmak için kullanılan metod.
+    // Veritabanı bağlantısı oluşturmak için kullanılan metod.(HQL'de kullanılır java(hibernate) ile)
     public Connection getConnection() throws SQLException {
         // DriverManager sınıfı, JDBC sürücüsünü kullanarak belirtilen URL, kullanıcı adı ve şifre ile bağlantı kurar.
         return DriverManager.getConnection(dbUrl, userName, password);
